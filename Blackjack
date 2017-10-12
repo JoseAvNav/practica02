@@ -1,0 +1,14 @@
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+/*EL JUEGO DE LAS 21*/
+main(){
+       int fin,pinta,num,suma,pc_num,pc;
+       srand(time(NULL));
+       printf("EL JUEGO DE LAS 21,LA SUMA DE LAS CARTAS DEBE SER 21,\n");
+       printf("SI SU SUMA ES MAS ALTA QUE LA DE LA COMPUTADORA, ENTONCES UD GANA EL JUEGO,\n");
+       printf("SI SU SUMA EXCEDE LOS 21, PIERDE DE INMEDIATO EL JUEGO.\n\n");
+       fin = 0;
+       suma = 0;
+       while(fin!=2){
